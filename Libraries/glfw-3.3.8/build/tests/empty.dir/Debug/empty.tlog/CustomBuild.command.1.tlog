@@ -1,0 +1,10 @@
+^D:\DOKUMENTY\STUDIA\SEMESTR 8\ALGORYTMY GRAFIKI KONPUTEROWEJ\PROJEKT\TRANSPARENCY\LIBRARIES\GLFW-3.3.8\TESTS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/libraries/glfw-3.3.8" "-BD:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/libraries/glfw-3.3.8/build" --check-stamp-file "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/libraries/glfw-3.3.8/build/tests/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
