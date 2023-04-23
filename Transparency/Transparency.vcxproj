@@ -72,10 +72,10 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LibraryPath>D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Dependencies;$(LibraryPath)</LibraryPath>
-    <IncludePath>D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Dependencies;$(IncludePath)</IncludePath>
+    <IncludePath>D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Transparency;D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Dependencies;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Dependencies;$(IncludePath)</IncludePath>
+    <IncludePath>D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Transparency;D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Dependencies;$(IncludePath)</IncludePath>
     <LibraryPath>D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Dependencies;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -139,10 +139,14 @@
   <ItemGroup>
     <ClCompile Include="..\Dependencies\glad.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\fragment.glsl" />
     <None Include="Shaders\vertex.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
