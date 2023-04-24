@@ -1,7 +1,7 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-
-#include "Shader.h"
+#include <string>
+#include "ShaderProgram.h"
 
 #include <iostream>
 
@@ -68,13 +68,15 @@ int main()
     }
 
     //SHADERS
-    Shader shader("Shaders/vertex.glsl", "Shaders/fragment.glsl");
+    std::string_view vertexSource{ "Shaders/vertex.glsl" };
+    std::string_view fragmentSource{ "Shaders/fragment.glsl" };
+    ShaderProgram shaderProgram(vertexSource, fragmentSource, Shader::FILE, Shader::FILE);
   
     //VAO
-    unsigned int VAO;
+    GLuint VAO;
     glGenVertexArrays(1, &VAO);
     //VBO
-    unsigned int VBO;
+    GLuint VBO;
     glGenBuffers(1, &VBO);
     //Funkcja do wiazania obiektu tablicy wierzcholkow
     glBindVertexArray(VAO);
@@ -90,7 +92,7 @@ int main()
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
     //EBO
-    unsigned int EBO;
+    GLuint EBO;
     glGenBuffers(1, &EBO);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
@@ -112,7 +114,7 @@ int main()
         glClear(GL_COLOR_BUFFER_BIT);
 
         //Ustawienie aktywnego shaderu do rysowania
-        shader.activate();
+        shaderProgram.useShaderProgram();
 
         //Pobieranie czasu
         //float timer = glfwGetTime();
