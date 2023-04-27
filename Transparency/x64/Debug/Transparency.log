@@ -1,4 +1,2 @@
-﻿  Shader.cpp
-D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Transparency\Shader.cpp(78,59): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Transparency\Shader.cpp(133,61): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+﻿  Texture.cpp
   Transparency.vcxproj -> D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Transparency\x64\Debug\Transparency.exe

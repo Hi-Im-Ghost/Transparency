@@ -26,8 +26,6 @@ public:
 	~Shader();
 	//Funkcja do pobrania id shadera
 	GLuint getShaderID() const;
-	//funkcja do aktywacji shadera
-	//void activate() const;
 	//funkcje dla uniformow
 	//void setBool(const std::string& name, bool value) const;
 	//void setInt(const std::string& name, int value) const;

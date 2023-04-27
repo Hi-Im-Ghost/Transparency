@@ -2,6 +2,7 @@
 #include <GLFW/glfw3.h>
 #include <string>
 #include "ShaderProgram.h"
+#include "Texture.h"
 
 #include <iostream>
 
@@ -17,10 +18,11 @@ const unsigned int height = 600;
 
 // wierzcholki
 float vertices[] = {
-     0.5f,  0.5f, 0.0f, 1.0f, 1.0f, 1.0f,  // top right
-     0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f,  // bottom right
-    -0.5f, -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, // bottom left
-    -0.5f,  0.5f, 0.0f, 0.0f, 0.0f, 1.0f // top left 
+          //Pozycja             //Kolor             //Tex
+     0.5f,  0.5f, 0.0f,     1.0f, 1.0f, 1.0f,   1.0f, 1.0f,  // top right
+     0.5f, -0.5f, 0.0f,     1.0f, 0.0f, 0.0f,   1.0f, 0.0f,  // bottom right
+    -0.5f, -0.5f, 0.0f,     0.0f, 1.0f, 0.0f,   0.0f, 0.0f, // bottom left
+    -0.5f,  0.5f, 0.0f,     0.0f, 0.0f, 1.0f,   0.0f, 1.0f // top left 
 };
 //indeksy 
 unsigned int indices[] = {  
@@ -28,14 +30,6 @@ unsigned int indices[] = {
     1, 2, 3    // second triangle
 };
 
-/*
-float vertices[] = {
-    // positions         // colors
-     0.5f, -0.5f, 0.0f,  1.0f, 0.0f, 0.0f,  // bottom right
-    -0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,  // bottom left
-     0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f   // top 
-};
-*/
 int main()
 {
     glfwInit();
@@ -68,41 +62,46 @@ int main()
     }
 
     //SHADERS
-    std::string_view vertexSource{ "Shaders/vertex.glsl" };
-    std::string_view fragmentSource{ "Shaders/fragment.glsl" };
-    ShaderProgram shaderProgram(vertexSource, fragmentSource, Shader::FILE, Shader::FILE);
+    ShaderProgram shaderProgram("Shaders/vertex.vert", "Shaders/fragment.frag", Shader::FILE, Shader::FILE);
   
+    //TEXTURE
+    Texture texture1("Textures/brick3.png");
+    Texture texture2("Textures/face.png");
     //VAO
     GLuint VAO;
     glGenVertexArrays(1, &VAO);
+    //Funkcja do wiazania obiektu tablicy wierzcholkow
+    glBindVertexArray(VAO);
+
     //VBO
     GLuint VBO;
     glGenBuffers(1, &VBO);
-    //Funkcja do wiazania obiektu tablicy wierzcholkow
-    glBindVertexArray(VAO);
     //Funkcja do wiazania bufora z typem 
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     //Funkcja do przydzielenia pamieci dla bufora
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-    //Funkcja do okreslenia jak opengl ma interpretowac dane wierzcholkow
-    //pos
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
-    //color
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
-    glEnableVertexAttribArray(1);
+
     //EBO
     GLuint EBO;
     glGenBuffers(1, &EBO);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
-    //Rozlaczenie buffora bo zostal zarejestrowany juz 
-    //glBindBuffer(GL_ARRAY_BUFFER, 0);
-    //Odlaczenie VAO
-    //glBindVertexArray(0);
-
-
+    //Funkcja do okreslenia jak opengl ma interpretowac dane wierzcholkow
+    //pos
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
+    glEnableVertexAttribArray(0);
+    //color
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
+    glEnableVertexAttribArray(1);
+    //tex
+    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
+    glEnableVertexAttribArray(2);
+   
+    shaderProgram.useShaderProgram();
+    glUniform1i(glGetUniformLocation(shaderProgram.getShaderID(), "texture1"), 0);
+    glUniform1i(glGetUniformLocation(shaderProgram.getShaderID(), "texture2"), 1);
+    
     // Petla glowna
     while (!glfwWindowShouldClose(window))
     {
@@ -113,21 +112,15 @@ int main()
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
+        //Powiazanie tekstury
+        glActiveTexture(GL_TEXTURE0);
+        glBindTexture(GL_TEXTURE_2D, texture1.getTextureID());
+        glActiveTexture(GL_TEXTURE1);
+        glBindTexture(GL_TEXTURE_2D, texture2.getTextureID());
         //Ustawienie aktywnego shaderu do rysowania
         shaderProgram.useShaderProgram();
-
-        //Pobieranie czasu
-        //float timer = glfwGetTime();
-        //Zmiana koloru 
-        //float greenColor = (sin(timer) / 2.0f) + 0.5f;
-        //Pobranie lokalizacji uniformu
-        //int colorUniform = glGetUniformLocation(shaderProgram, "color");
-        //Przesylanie wartosci do uniformu
-        //glUniform4f(colorUniform, 0.0f, greenColor, 0.0f, 1.0f);
-
         glBindVertexArray(VAO);
         //Rysowanie 
-        //glDrawArrays(GL_TRIANGLES, 0, 3);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
 

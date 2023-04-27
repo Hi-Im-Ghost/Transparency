@@ -17,7 +17,6 @@ Shader::Shader(const std::string_view& path, ShaderType shaderType, SourceType s
 		}
 		//przy pomocy iteratora pobierz kazdy znak po kolei
 		shaderCode = std::string((std::istreambuf_iterator<char>(shaderFile)), std::istreambuf_iterator<char>()).data();
-		//OGARNAC TEGO EOF
 		//Jesli zostaly jakies bity to
 		if (shaderFile.eof())
 		{
@@ -42,13 +41,13 @@ Shader::~Shader()
 	if (shaderID != 0)
 	{
 		//Wyczysc
-		glDeleteShader(shaderID);
+		glDeleteShader(this->shaderID);
 	}
 }
 
 GLuint Shader::getShaderID() const
 {
-	return shaderID;
+	return this->shaderID;
 }
 
 void Shader::checkErrors(GLuint shader, std::string type)
