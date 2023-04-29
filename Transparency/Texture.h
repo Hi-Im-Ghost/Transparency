@@ -21,7 +21,15 @@ public:
 	Texture(const std::string_view& path);
 	//Destruktor
 	~Texture();
-	//Funkcja do pobrania id textury
+	//Metoda do pobrania id textury
 	GLuint getTextureID() const;
+	//Metoda do generowania id tekstur i ustawieniu identyfikatora 
+	void genTextures();
+	//Metoda do aktywacji tekstury
+	void useTexture() const;
+	//Metoda do aktywacji tekstury
+	void useTexture(GLuint textureNum) const;
+	//Metoda do deaktywacji tekstury
+	void unbind() const;
 };
 

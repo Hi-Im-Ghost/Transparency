@@ -1,10 +1,11 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <string>
-#include "ShaderProgram.h"
-#include "Texture.h"
-
 #include <iostream>
+
+#include <ShaderProgram.h>
+#include <Texture.h>
+
 
 // Funkcja do skalowania okna do renderowania (uruchamia sie w momencie zmiany rozmiaru okna)
 void scaleViewport(GLFWwindow* window, int width, int height);
@@ -16,18 +17,16 @@ const unsigned int width = 800;
 // wysokosc okna
 const unsigned int height = 600;
 
-// wierzcholki
 float vertices[] = {
-          //Pozycja             //Kolor             //Tex
-     0.5f,  0.5f, 0.0f,     1.0f, 1.0f, 1.0f,   1.0f, 1.0f,  // top right
-     0.5f, -0.5f, 0.0f,     1.0f, 0.0f, 0.0f,   1.0f, 0.0f,  // bottom right
-    -0.5f, -0.5f, 0.0f,     0.0f, 1.0f, 0.0f,   0.0f, 0.0f, // bottom left
-    -0.5f,  0.5f, 0.0f,     0.0f, 0.0f, 1.0f,   0.0f, 1.0f // top left 
+    // positions          // colors           // texture
+     0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   1.0f, 1.0f, // top right
+     0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,   1.0f, 0.0f, // bottom right
+    -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, 1.0f,   0.0f, 0.0f, // bottom left
+    -0.5f,  0.5f, 0.0f,   1.0f, 1.0f, 0.0f,   0.0f, 1.0f  // top left 
 };
-//indeksy 
-unsigned int indices[] = {  
-    0, 1, 3,   // first triangle
-    1, 2, 3    // second triangle
+unsigned int indices[] = {
+    0, 1, 3, 
+    1, 2, 3 
 };
 
 int main()
@@ -63,10 +62,7 @@ int main()
 
     //SHADERS
     ShaderProgram shaderProgram("Shaders/vertex.vert", "Shaders/fragment.frag", Shader::FILE, Shader::FILE);
-  
-    //TEXTURE
-    Texture texture1("Textures/brick3.png");
-    Texture texture2("Textures/face.png");
+
     //VAO
     GLuint VAO;
     glGenVertexArrays(1, &VAO);
@@ -98,10 +94,17 @@ int main()
     glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
     glEnableVertexAttribArray(2);
    
-    shaderProgram.useShaderProgram();
-    glUniform1i(glGetUniformLocation(shaderProgram.getShaderID(), "texture1"), 0);
-    glUniform1i(glGetUniformLocation(shaderProgram.getShaderID(), "texture2"), 1);
-    
+    //TEXTURES
+    Texture texture1("Textures/brick3.png");
+    Texture texture2("Textures/face.png");
+
+    //Aktywacja shaderow
+    shaderProgram.useShaderProgram(); 
+    //Przeslanie tekstur do shaderow jako uniform
+    glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture1"), 0);
+    glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture2"), 1);
+
+
     // Petla glowna
     while (!glfwWindowShouldClose(window))
     {
@@ -112,11 +115,10 @@ int main()
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        //Powiazanie tekstury
-        glActiveTexture(GL_TEXTURE0);
-        glBindTexture(GL_TEXTURE_2D, texture1.getTextureID());
-        glActiveTexture(GL_TEXTURE1);
-        glBindTexture(GL_TEXTURE_2D, texture2.getTextureID());
+        //Aktywacja tekstur
+        texture1.useTexture();
+        texture2.useTexture(1);
+
         //Ustawienie aktywnego shaderu do rysowania
         shaderProgram.useShaderProgram();
         glBindVertexArray(VAO);

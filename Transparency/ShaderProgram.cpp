@@ -6,7 +6,7 @@ ShaderProgram::ShaderProgram(const std::string_view& vertexFilePath, const std::
 	Shader fragmentShader(fragmentFilePath, ShaderType::FRAGMENT, fragmentSourceType);
 
 	//Obiekt programu shaderow
-	shaderProgramID = glCreateProgram();
+	this->shaderProgramID = glCreateProgram();
 
 	if (shaderProgramID == 0)
 	{
@@ -28,7 +28,7 @@ ShaderProgram::~ShaderProgram()
 	if (shaderProgramID != 0)
 	{
 		//Wyczysc
-		glDeleteProgram(shaderProgramID);
+		glDeleteProgram(this->shaderProgramID);
 	}
 }
 
@@ -41,11 +41,11 @@ void ShaderProgram::useShaderProgram() const
 	}
 	else
 	{
-		glUseProgram(shaderProgramID);
+		glUseProgram(this->shaderProgramID);
 	}
 }
 
 GLuint ShaderProgram::getShaderProgram() const
 {
-	return shaderProgramID;
+	return this->shaderProgramID;
 }
