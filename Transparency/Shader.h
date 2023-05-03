@@ -11,11 +11,11 @@
 class Shader
 {
 public:
-	enum ShaderType {
+	enum class ShaderType {
 		VERTEX,
 		FRAGMENT
 	};
-	enum SourceType {
+	enum class SourceType {
 		TEXT,
 		FILE
 	};

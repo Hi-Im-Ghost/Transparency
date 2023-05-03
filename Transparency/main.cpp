@@ -1,32 +1,107 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+
 #include <string>
 #include <iostream>
 
 #include <ShaderProgram.h>
 #include <Texture.h>
-
+#include <Camera.h>
 
 // Funkcja do skalowania okna do renderowania (uruchamia sie w momencie zmiany rozmiaru okna)
 void scaleViewport(GLFWwindow* window, int width, int height);
+//Funkcja do przechtywytwania pozycji myszy
+void mouse_callback(GLFWwindow* window, double xpos, double ypos);
+//Funkcja do przechwytywania kolka myszy 
+void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
 // Funkcja do obs³ugu inputu 
 void mappingInput(GLFWwindow* window);
+
 
 // szerokosc okna
 const unsigned int width = 800;
 // wysokosc okna
 const unsigned int height = 600;
+// czas
+float deltaTime = 0.0f;	
+float lastFrame = 0.0f;
+//Kamera
+Camera camera(width, height);
+bool firstMouse = true;
+float lastX = width / 2.0f;
+float lastY = height / 2.0f;
 
-float vertices[] = {
+//Obiekty
+float square[] = {
     // positions          // colors           // texture
      0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   1.0f, 1.0f, // top right
      0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,   1.0f, 0.0f, // bottom right
     -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, 1.0f,   0.0f, 0.0f, // bottom left
     -0.5f,  0.5f, 0.0f,   1.0f, 1.0f, 0.0f,   0.0f, 1.0f  // top left 
 };
-unsigned int indices[] = {
+unsigned int indices_square[] = {
     0, 1, 3, 
     1, 2, 3 
+};
+
+float cube[] = {
+    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+     0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f, 1.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+
+    -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+    -0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+    -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+
+     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+     0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+     0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+     0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+     0.5f, -0.5f, -0.5f,  1.0f, 1.0f,
+     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
+     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+
+    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
+    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f
+};
+
+glm::vec3 cubePositions[] = {
+    glm::vec3(0.0f,  0.0f,  0.0f),
+    glm::vec3(2.0f,  5.0f, -15.0f),
+    glm::vec3(-1.5f, -2.2f, -2.5f),
+    glm::vec3(-3.8f, -2.0f, -12.3f),
+    glm::vec3(2.4f, -0.4f, -3.5f),
+    glm::vec3(-1.7f,  3.0f, -7.5f),
+    glm::vec3(1.3f, -2.0f, -2.5f),
+    glm::vec3(1.5f,  2.0f, -2.5f),
+    glm::vec3(1.5f,  0.2f, -1.5f),
+    glm::vec3(-1.3f,  1.0f, -1.5f)
 };
 
 int main()
@@ -51,18 +126,25 @@ int main()
     glfwMakeContextCurrent(window);
     //Ustawienie funkcji do wywolania w momencie zmiany rozmiaru okna
     glfwSetFramebufferSizeCallback(window, scaleViewport);
+    //Ustawienie funkcji do wywolania w momencie zmiany pozycji myszy
+    glfwSetCursorPosCallback(window, mouse_callback);
+    //Ustawienie funkcji do wywolania w momencie uzycia kolka myszy
+    glfwSetScrollCallback(window, scroll_callback);
+    //Wlacz pobieranie pozycji myszy i wylacz widocznosc kursora
+    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+
 
     // glad inicjalizacja 
-    // ---------------------------------------
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
     {
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
+    //Wlaczenie bufora glebokosci
+    glEnable(GL_DEPTH_TEST);
 
     //SHADERS
-    ShaderProgram shaderProgram("Shaders/vertex.vert", "Shaders/fragment.frag", Shader::FILE, Shader::FILE);
-
+    ShaderProgram shaderProgram("Shaders/vertex.vert", "Shaders/fragment.frag", Shader::SourceType::FILE, Shader::SourceType::FILE);
     //VAO
     GLuint VAO;
     glGenVertexArrays(1, &VAO);
@@ -75,24 +157,24 @@ int main()
     //Funkcja do wiazania bufora z typem 
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     //Funkcja do przydzielenia pamieci dla bufora
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
+    glBufferData(GL_ARRAY_BUFFER, sizeof(cube), cube, GL_STATIC_DRAW);
+    /*
     //EBO
     GLuint EBO;
     glGenBuffers(1, &EBO);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
-
+    */
     //Funkcja do okreslenia jak opengl ma interpretowac dane wierzcholkow
     //pos
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
-    //color
+    /*//color
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
-    glEnableVertexAttribArray(1);
+    glEnableVertexAttribArray(1);*/
     //tex
-    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
-    glEnableVertexAttribArray(2);
+    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
+    glEnableVertexAttribArray(1);
    
     //TEXTURES
     Texture texture1("Textures/brick3.png");
@@ -103,17 +185,21 @@ int main()
     //Przeslanie tekstur do shaderow jako uniform
     glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture1"), 0);
     glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture2"), 1);
-
-
-    // Petla glowna
+    
+    //Petla glowna
     while (!glfwWindowShouldClose(window))
     {
-        // input
+        //Pobieranie czasu ostatniej klatki
+        float currentFrame = static_cast<float>(glfwGetTime());
+        deltaTime = currentFrame - lastFrame;
+        lastFrame = currentFrame;
+
+        //input
         mappingInput(window);
 
-        // czyszczenie okna kolorem
+        //czyszczenie okna kolorem
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         //Aktywacja tekstur
         texture1.useTexture();
@@ -121,21 +207,40 @@ int main()
 
         //Ustawienie aktywnego shaderu do rysowania
         shaderProgram.useShaderProgram();
-        glBindVertexArray(VAO);
+
+        //Macierz projekcji
+        glm::mat4 proj = camera.getProjectionMatrix();
+        glUniformMatrix4fv(glGetUniformLocation(shaderProgram.getShaderProgram(), "projection"), 1, GL_FALSE, glm::value_ptr(proj));
+        //Camera transform
+        glm::mat4 view = camera.getViewMatrix();
+        glUniformMatrix4fv(glGetUniformLocation(shaderProgram.getShaderProgram(), "view"), 1, GL_FALSE, glm::value_ptr(view));
+
         //Rysowanie 
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        glBindVertexArray(VAO);
+        for (unsigned int i = 1; i < 11; i++)
+        {
+            glm::mat4 model = glm::mat4(1.0f);
+            model = glm::translate(model, cubePositions[i-1]);
+            //Obrot  wokol osi Z
+            model = glm::rotate(model, (float)glfwGetTime() * i, glm::vec3(1.0f, 0.3f, 0.5f));
+
+            glUniformMatrix4fv(glGetUniformLocation(shaderProgram.getShaderProgram(), "model"), 1, GL_FALSE, glm::value_ptr(model));
+
+            glDrawArrays(GL_TRIANGLES, 0, 36);
+        }
+        //glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
 
-        // Podwójne buforowanie 
+        //Podwójne buforowanie 
         glfwSwapBuffers(window);
         //Funkcja do sprawdzenia czy zostalo wykonane jakies wydarzenie i aktualizowania stanu okna
         glfwPollEvents();
     }
-    // Funkcje do zwalniania uzytych zasobow 
+    //Funkcje do zwalniania uzytych zasobow 
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
-    glDeleteBuffers(1, &EBO);
-    // Funkcja do usuwania i czyszczenia zasobów 
+    //glDeleteBuffers(1, &EBO);
+    //Funkcja do usuwania i czyszczenia zasobów 
     glfwTerminate();
     return 0;
 }
@@ -145,10 +250,45 @@ void mappingInput(GLFWwindow* window)
 {
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
+    //Obsluga poruszania kamery za pomoca klawiatury 
+    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+        camera.setKeyboardMovement(Camera::Direction::Forward, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+        camera.setKeyboardMovement(Camera::Direction::Backward, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+        camera.setKeyboardMovement(Camera::Direction::Left, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+        camera.setKeyboardMovement(Camera::Direction::Right, deltaTime);
 }
-
 
 void scaleViewport(GLFWwindow* window, int width, int height)
 {
     glViewport(0, 0, width, height);
+}
+
+void mouse_callback(GLFWwindow* window, double xPos, double yPos)
+{
+    //Oblicz ruch myszy wzglêdem poprzedniej pozycji
+    float xpos = static_cast<float>(xPos);
+    float ypos = static_cast<float>(yPos);
+
+    if (firstMouse)
+    {
+        lastX = xpos;
+        lastY = ypos;
+        firstMouse = false;
+    }
+
+    float xoffset = xpos - lastX;
+    float yoffset = lastY - ypos; 
+
+    lastX = xpos;
+    lastY = ypos;
+    //Ustaw kierunek ruchu myszy w kamerze
+    camera.setMouseMovement(xoffset, yoffset);
+}
+
+void scroll_callback(GLFWwindow* window, double xoffset, double yoffset)
+{
+    camera.setMouseScroll(static_cast<float>(yoffset));
 }
