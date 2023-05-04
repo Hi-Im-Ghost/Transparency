@@ -81,6 +81,11 @@ glm::mat4 Camera::getProjectionMatrix() const
     return glm::perspective(glm::radians(_fov), _aspectRatio, 0.1f, 100.0f);
 }
 
+glm::vec3 Camera::getCameraPosition() const
+{
+    return _position;
+}
+
 
 void Camera::updateCameraVectors()
 {

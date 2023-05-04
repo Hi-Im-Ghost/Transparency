@@ -134,6 +134,50 @@ float cubeTex[] = {
     -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
     -0.5f,  0.5f, -0.5f,  0.0f, 1.0f
 };
+//kostka z normalnymi
+float cubeNormals[] = {
+    -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+     0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+     0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+     0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+    -0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+
+    -0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+     0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+
+    -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f,  0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f, -0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+
+     0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f,  0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f, -0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+
+    -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+     0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+     0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+     0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+
+    -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
+     0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+    -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f
+};
 
 glm::vec3 cubePositions[] = {
     glm::vec3(0.0f,  0.0f,  0.0f),
@@ -148,7 +192,7 @@ glm::vec3 cubePositions[] = {
     glm::vec3(-1.3f,  1.0f, -1.5f)
 };
 
-
+glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
 
 int main()
 {
@@ -204,7 +248,7 @@ int main()
     //Funkcja do wiazania bufora z typem 
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     //Funkcja do przydzielenia pamieci dla bufora
-    glBufferData(GL_ARRAY_BUFFER, sizeof(cube), cube, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(cubeNormals), cubeNormals, GL_STATIC_DRAW);
     /*
     //EBO
     GLuint EBO;
@@ -214,8 +258,10 @@ int main()
     */
     //Funkcja do okreslenia jak opengl ma interpretowac dane wierzcholkow
     //pos
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
+    glEnableVertexAttribArray(1);
     /*//color
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);*/
@@ -230,8 +276,9 @@ int main()
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     //Funkcja do okreslenia jak opengl ma interpretowac dane wierzcholkow
     //pos
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
+
     //TEXTURES
     //Texture texture1("Textures/brick3.png");
     //Texture texture2("Textures/face.png");
@@ -241,7 +288,7 @@ int main()
     //Przeslanie tekstur do shaderow jako uniform
     //glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture1"), 0);
     //glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture2"), 1);
-    
+
     //Petla glowna
     while (!glfwWindowShouldClose(window))
     {
@@ -257,6 +304,9 @@ int main()
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+        //Zmiana pozycji swiatla w czasie
+        lightPos.x = 1.0f + sin(glfwGetTime()) * 5.0f;
+        lightPos.y = sin(glfwGetTime() / 2.0f) * 3.0f;
         //Aktywacja tekstur
         //texture1.useTexture();
         //texture2.useTexture(1);
@@ -267,7 +317,11 @@ int main()
         //Przeslanie koloru do shadera
         glUniform3f(glGetUniformLocation(LightingObject.getShaderProgram(), "objectColor"), 1, GL_FALSE, (1.0f, 0.5f, 0.31f));
         glUniform3f(glGetUniformLocation(LightingObject.getShaderProgram(), "lightColor"), 1, GL_FALSE, (1.0f, 1.0f, 1.0f));
-        
+        //Pozycja swiatla
+        glUniform3fv(glGetUniformLocation(LightingObject.getShaderProgram(), "lightPos"), 1, glm::value_ptr(lightPos));
+        //Camera pos
+        glUniform3fv(glGetUniformLocation(LightingObject.getShaderProgram(), "viewPos"), 1, glm::value_ptr(camera.getCameraPosition()));
+
         //Macierz projekcji
         glm::mat4 proj = camera.getProjectionMatrix();
         glUniformMatrix4fv(glGetUniformLocation(LightingObject.getShaderProgram(), "projection"), 1, GL_FALSE, glm::value_ptr(proj));
@@ -276,21 +330,23 @@ int main()
         glUniformMatrix4fv(glGetUniformLocation(LightingObject.getShaderProgram(), "view"), 1, GL_FALSE, glm::value_ptr(view));
 
         //Rysowanie 
-        glBindVertexArray(VAO);
+        
         for (unsigned int i = 1; i < 11; i++)
         {
             glm::mat4 model = glm::mat4(1.0f);
             model = glm::translate(model, cubePositions[i - 1]);
             //Obrot  wokol osi Z
-            model = glm::rotate(model, (float)glfwGetTime() * i, glm::vec3(1.0f, 0.3f, 0.5f));
+            //model = glm::rotate(model, (float)glfwGetTime() * i, glm::vec3(1.0f, 0.3f, 0.5f));
 
             glUniformMatrix4fv(glGetUniformLocation(LightingObject.getShaderProgram(), "model"), 1, GL_FALSE, glm::value_ptr(model));
-
+            glBindVertexArray(VAO);
             glDrawArrays(GL_TRIANGLES, 0, 36);
         }
 
 
         //glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+        
+        
         //Dla slonca
         SunObject.useShaderProgram();
         //Macierz projekcji
@@ -298,11 +354,14 @@ int main()
         //Camera transform
         glUniformMatrix4fv(glGetUniformLocation(SunObject.getShaderProgram(), "view"), 1, GL_FALSE, glm::value_ptr(view));
         glm::mat4 model = glm::mat4(1.0f);
-        model = glm::translate(model, glm::vec3(1.2f, 1.0f, 2.0f));
+        model = glm::translate(model, lightPos);
         model = glm::scale(model, glm::vec3(0.3f));
         glUniformMatrix4fv(glGetUniformLocation(SunObject.getShaderProgram(), "model"), 1, GL_FALSE, glm::value_ptr(model));
+        
         glBindVertexArray(sunVAO);
         glDrawArrays(GL_TRIANGLES, 0, 36);
+        
+        
         //Podwójne buforowanie 
         glfwSwapBuffers(window);
         //Funkcja do sprawdzenia czy zostalo wykonane jakies wydarzenie i aktualizowania stanu okna

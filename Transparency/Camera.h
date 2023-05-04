@@ -55,5 +55,7 @@ public:
 	glm::mat4 getViewMatrix() const;
 	//Metoda do zwracania macierzy projekcji
 	glm::mat4 getProjectionMatrix() const;
+	//Metoda do zwracania pozycji kamery
+	glm::vec3 getCameraPosition() const;
 };
 

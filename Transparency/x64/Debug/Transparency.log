@@ -1,2 +1,12 @@
 ﻿  main.cpp
+D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Transparency\main.cpp(308,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Transparency\main.cpp(309,48): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
   Transparency.vcxproj -> D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Transparency\x64\Debug\Transparency.exe
