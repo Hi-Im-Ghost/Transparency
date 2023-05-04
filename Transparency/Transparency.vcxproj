@@ -148,6 +148,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\fragment.frag" />
+    <None Include="Shaders\light.frag" />
+    <None Include="Shaders\light.vert" />
     <None Include="Shaders\vertex.vert" />
   </ItemGroup>
   <ItemGroup>

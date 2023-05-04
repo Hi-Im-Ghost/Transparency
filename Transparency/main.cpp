@@ -48,6 +48,50 @@ unsigned int indices_square[] = {
 };
 
 float cube[] = {
+    -0.5f, -0.5f, -0.5f,
+     0.5f, -0.5f, -0.5f,
+     0.5f,  0.5f, -0.5f,
+     0.5f,  0.5f, -0.5f,
+    -0.5f,  0.5f, -0.5f,
+    -0.5f, -0.5f, -0.5f,
+
+    -0.5f, -0.5f,  0.5f,
+     0.5f, -0.5f,  0.5f,
+     0.5f,  0.5f,  0.5f,
+     0.5f,  0.5f,  0.5f,
+    -0.5f,  0.5f,  0.5f,
+    -0.5f, -0.5f,  0.5f,
+
+    -0.5f,  0.5f,  0.5f,
+    -0.5f,  0.5f, -0.5f,
+    -0.5f, -0.5f, -0.5f,
+    -0.5f, -0.5f, -0.5f,
+    -0.5f, -0.5f,  0.5f,
+    -0.5f,  0.5f,  0.5f,
+
+     0.5f,  0.5f,  0.5f,
+     0.5f,  0.5f, -0.5f,
+     0.5f, -0.5f, -0.5f,
+     0.5f, -0.5f, -0.5f,
+     0.5f, -0.5f,  0.5f,
+     0.5f,  0.5f,  0.5f,
+
+    -0.5f, -0.5f, -0.5f,
+     0.5f, -0.5f, -0.5f,
+     0.5f, -0.5f,  0.5f,
+     0.5f, -0.5f,  0.5f,
+    -0.5f, -0.5f,  0.5f,
+    -0.5f, -0.5f, -0.5f,
+
+    -0.5f,  0.5f, -0.5f,
+     0.5f,  0.5f, -0.5f,
+     0.5f,  0.5f,  0.5f,
+     0.5f,  0.5f,  0.5f,
+    -0.5f,  0.5f,  0.5f,
+    -0.5f,  0.5f, -0.5f,
+};
+//cube with tex
+float cubeTex[] = {
     -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
      0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
      0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
@@ -104,6 +148,8 @@ glm::vec3 cubePositions[] = {
     glm::vec3(-1.3f,  1.0f, -1.5f)
 };
 
+
+
 int main()
 {
     glfwInit();
@@ -144,9 +190,10 @@ int main()
     glEnable(GL_DEPTH_TEST);
 
     //SHADERS
-    ShaderProgram shaderProgram("Shaders/vertex.vert", "Shaders/fragment.frag", Shader::SourceType::FILE, Shader::SourceType::FILE);
+    ShaderProgram LightingObject("Shaders/vertex.vert", "Shaders/fragment.frag", Shader::SourceType::FILE, Shader::SourceType::FILE);
+    ShaderProgram SunObject("Shaders/light.vert", "Shaders/light.frag", Shader::SourceType::FILE, Shader::SourceType::FILE);
     //VAO
-    GLuint VAO;
+    GLuint VAO, sunVAO;
     glGenVertexArrays(1, &VAO);
     //Funkcja do wiazania obiektu tablicy wierzcholkow
     glBindVertexArray(VAO);
@@ -167,24 +214,33 @@ int main()
     */
     //Funkcja do okreslenia jak opengl ma interpretowac dane wierzcholkow
     //pos
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
     /*//color
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);*/
     //tex
-    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
-    glEnableVertexAttribArray(1);
+    //glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
+    //glEnableVertexAttribArray(1);
    
+    //SUN
+    glGenVertexArrays(1, &sunVAO);
+    //Funkcja do wiazania obiektu tablicy wierzcholkow
+    glBindVertexArray(sunVAO);
+    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    //Funkcja do okreslenia jak opengl ma interpretowac dane wierzcholkow
+    //pos
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glEnableVertexAttribArray(0);
     //TEXTURES
-    Texture texture1("Textures/brick3.png");
-    Texture texture2("Textures/face.png");
+    //Texture texture1("Textures/brick3.png");
+    //Texture texture2("Textures/face.png");
 
     //Aktywacja shaderow
-    shaderProgram.useShaderProgram(); 
+    //shaderProgram.useShaderProgram(); 
     //Przeslanie tekstur do shaderow jako uniform
-    glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture1"), 0);
-    glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture2"), 1);
+    //glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture1"), 0);
+    //glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture2"), 1);
     
     //Petla glowna
     while (!glfwWindowShouldClose(window))
@@ -198,39 +254,55 @@ int main()
         mappingInput(window);
 
         //czyszczenie okna kolorem
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         //Aktywacja tekstur
-        texture1.useTexture();
-        texture2.useTexture(1);
+        //texture1.useTexture();
+        //texture2.useTexture(1);
 
         //Ustawienie aktywnego shaderu do rysowania
-        shaderProgram.useShaderProgram();
+        LightingObject.useShaderProgram();
 
+        //Przeslanie koloru do shadera
+        glUniform3f(glGetUniformLocation(LightingObject.getShaderProgram(), "objectColor"), 1, GL_FALSE, (1.0f, 0.5f, 0.31f));
+        glUniform3f(glGetUniformLocation(LightingObject.getShaderProgram(), "lightColor"), 1, GL_FALSE, (1.0f, 1.0f, 1.0f));
+        
         //Macierz projekcji
         glm::mat4 proj = camera.getProjectionMatrix();
-        glUniformMatrix4fv(glGetUniformLocation(shaderProgram.getShaderProgram(), "projection"), 1, GL_FALSE, glm::value_ptr(proj));
+        glUniformMatrix4fv(glGetUniformLocation(LightingObject.getShaderProgram(), "projection"), 1, GL_FALSE, glm::value_ptr(proj));
         //Camera transform
         glm::mat4 view = camera.getViewMatrix();
-        glUniformMatrix4fv(glGetUniformLocation(shaderProgram.getShaderProgram(), "view"), 1, GL_FALSE, glm::value_ptr(view));
+        glUniformMatrix4fv(glGetUniformLocation(LightingObject.getShaderProgram(), "view"), 1, GL_FALSE, glm::value_ptr(view));
 
         //Rysowanie 
         glBindVertexArray(VAO);
         for (unsigned int i = 1; i < 11; i++)
         {
             glm::mat4 model = glm::mat4(1.0f);
-            model = glm::translate(model, cubePositions[i-1]);
+            model = glm::translate(model, cubePositions[i - 1]);
             //Obrot  wokol osi Z
             model = glm::rotate(model, (float)glfwGetTime() * i, glm::vec3(1.0f, 0.3f, 0.5f));
 
-            glUniformMatrix4fv(glGetUniformLocation(shaderProgram.getShaderProgram(), "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glUniformMatrix4fv(glGetUniformLocation(LightingObject.getShaderProgram(), "model"), 1, GL_FALSE, glm::value_ptr(model));
 
             glDrawArrays(GL_TRIANGLES, 0, 36);
         }
+
+
         //glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-
-
+        //Dla slonca
+        SunObject.useShaderProgram();
+        //Macierz projekcji
+        glUniformMatrix4fv(glGetUniformLocation(SunObject.getShaderProgram(), "projection"), 1, GL_FALSE, glm::value_ptr(proj));
+        //Camera transform
+        glUniformMatrix4fv(glGetUniformLocation(SunObject.getShaderProgram(), "view"), 1, GL_FALSE, glm::value_ptr(view));
+        glm::mat4 model = glm::mat4(1.0f);
+        model = glm::translate(model, glm::vec3(1.2f, 1.0f, 2.0f));
+        model = glm::scale(model, glm::vec3(0.3f));
+        glUniformMatrix4fv(glGetUniformLocation(SunObject.getShaderProgram(), "model"), 1, GL_FALSE, glm::value_ptr(model));
+        glBindVertexArray(sunVAO);
+        glDrawArrays(GL_TRIANGLES, 0, 36);
         //Podwójne buforowanie 
         glfwSwapBuffers(window);
         //Funkcja do sprawdzenia czy zostalo wykonane jakies wydarzenie i aktualizowania stanu okna
@@ -238,6 +310,7 @@ int main()
     }
     //Funkcje do zwalniania uzytych zasobow 
     glDeleteVertexArrays(1, &VAO);
+    glDeleteVertexArrays(1, &sunVAO);
     glDeleteBuffers(1, &VBO);
     //glDeleteBuffers(1, &EBO);
     //Funkcja do usuwania i czyszczenia zasobów 
