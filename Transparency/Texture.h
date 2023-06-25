@@ -25,6 +25,7 @@ public:
 	GLuint getTextureID() const;
 	//Metoda do generowania id tekstur i ustawieniu identyfikatora 
 	void genTextures();
+	void bindTexture() const;
 	//Metoda do aktywacji tekstury
 	void useTexture() const;
 	//Metoda do aktywacji tekstury

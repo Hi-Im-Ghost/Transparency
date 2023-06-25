@@ -2,11 +2,11 @@
 out vec4 FragColor;
 
 //in vec3 ourColor;
-//in vec2 TexCoord;
+in vec2 TexCoord;
 in vec3 ourNormal;
 in vec3 ourFragPos;
 
-//uniform sampler2D texture1;
+uniform sampler2D texture1;
 //uniform sampler2D texture2;
 
 uniform vec3 objectColor;
@@ -16,8 +16,9 @@ uniform vec3 viewPos;
 
 void main()
 {
-	//FragColor = mix(texture(texture1, TexCoord), texture(texture2, TexCoord), 0.3);
-	
+
+    vec4 texColor = texture(texture1, TexCoord);
+
     float ambientStrength = 0.1;
     vec3 ambient = ambientStrength * lightColor;
 
@@ -32,7 +33,7 @@ void main()
 
 
     //Intensywnosc odblyskow
-    float specularStrength = 0.5;
+    float specularStrength = 0.9;
     //Obliczenie wektora kierunku widoku i wektor odbicia wzdloz normalnej
     vec3 viewDir = normalize(viewPos - ourFragPos);
     //negujemy poniewaz oczekujemy ze wektor bedzie wskazywal od zrodla swiatla 
@@ -43,6 +44,7 @@ void main()
     vec3 specular = specularStrength * spec * lightColor;  
 
 
+   // vec3 result = (ambient + diffuse + specular) * objectColor;
     vec3 result = (ambient + diffuse + specular) * objectColor;
-    FragColor = vec4(result, 1.0);
+    FragColor = texColor * vec4(result,1.0) ;
 }

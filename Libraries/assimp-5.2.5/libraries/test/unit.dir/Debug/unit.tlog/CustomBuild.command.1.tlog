@@ -1,0 +1,10 @@
+^D:\DOKUMENTY\STUDIA\SEMESTR 8\ALGORYTMY GRAFIKI KONPUTEROWEJ\PROJEKT\TRANSPARENCY\LIBRARIES\ASSIMP-5.2.5\TEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5" "-BD:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries" --check-stamp-file "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

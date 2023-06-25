@@ -82,6 +82,11 @@ void Texture::genTextures()
 	glGenTextures(1, &textureID);
 }
 
+void Texture::bindTexture() const
+{
+	glBindTexture(GL_TEXTURE_2D, textureID);
+}
+
 void Texture::useTexture() const
 {
 	//Aktywacja tekstur i przypisanie nazwy tekstury do celu

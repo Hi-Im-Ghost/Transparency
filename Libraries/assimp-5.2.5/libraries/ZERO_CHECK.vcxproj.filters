@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\libraries\CMakeFiles\43b5d87e133a2713d13663a4bff5321c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{84DDA8F9-8141-38D5-807D-16F83B082F84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

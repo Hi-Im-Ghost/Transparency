@@ -1,0 +1,556 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:59 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:59 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      Build started 01.06.2023 12:51:20.
+      Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.06
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:59 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      Build started 01.06.2023 12:51:22.
+      Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.91
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:59 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-bbw8p8"
+      binary: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-bbw8p8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-bbw8p8
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f295e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 01.06.2023 12:51:23.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-bbw8p8\\cmTC_f295e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f295e.dir\\Debug\\".
+          Creating directory "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-bbw8p8\\Debug\\".
+          Creating directory "cmTC_f295e.dir\\Debug\\cmTC_f295e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f295e.dir\\Debug\\cmTC_f295e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f295e.dir\\Debug\\\\" /Fd"cmTC_f295e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f295e.dir\\Debug\\\\" /Fd"cmTC_f295e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-bbw8p8\\Debug\\cmTC_f295e.exe" /INCREMENTAL /ILK:"cmTC_f295e.dir\\Debug\\cmTC_f295e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-bbw8p8/Debug/cmTC_f295e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-bbw8p8/Debug/cmTC_f295e.lib" /MACHINE:X64  /machine:x64 cmTC_f295e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f295e.vcxproj -> D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-bbw8p8\\Debug\\cmTC_f295e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f295e.dir\\Debug\\cmTC_f295e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f295e.dir\\Debug\\cmTC_f295e.tlog\\cmTC_f295e.lastbuildstate".
+        Done Building Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-bbw8p8\\cmTC_f295e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.93
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:59 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-35jxz2"
+      binary: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-35jxz2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-35jxz2
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3c7db.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 01.06.2023 12:51:25.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-35jxz2\\cmTC_3c7db.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3c7db.dir\\Debug\\".
+          Creating directory "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-35jxz2\\Debug\\".
+          Creating directory "cmTC_3c7db.dir\\Debug\\cmTC_3c7db.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3c7db.dir\\Debug\\cmTC_3c7db.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3c7db.dir\\Debug\\\\" /Fd"cmTC_3c7db.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3c7db.dir\\Debug\\\\" /Fd"cmTC_3c7db.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-35jxz2\\Debug\\cmTC_3c7db.exe" /INCREMENTAL /ILK:"cmTC_3c7db.dir\\Debug\\cmTC_3c7db.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-35jxz2/Debug/cmTC_3c7db.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-35jxz2/Debug/cmTC_3c7db.lib" /MACHINE:X64  /machine:x64 cmTC_3c7db.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_3c7db.vcxproj -> D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-35jxz2\\Debug\\cmTC_3c7db.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_3c7db.dir\\Debug\\cmTC_3c7db.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3c7db.dir\\Debug\\cmTC_3c7db.tlog\\cmTC_3c7db.lastbuildstate".
+        Done Building Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-35jxz2\\cmTC_3c7db.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.93
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-fvb6by"
+      binary: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-fvb6by"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/cmake-modules"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-fvb6by
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b2a04.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 01.06.2023 12:51:27.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-fvb6by\\cmTC_b2a04.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b2a04.dir\\Debug\\".
+          Creating directory "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-fvb6by\\Debug\\".
+          Creating directory "cmTC_b2a04.dir\\Debug\\cmTC_b2a04.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b2a04.dir\\Debug\\cmTC_b2a04.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2a04.dir\\Debug\\\\" /Fd"cmTC_b2a04.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-fvb6by\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2a04.dir\\Debug\\\\" /Fd"cmTC_b2a04.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-fvb6by\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-fvb6by\\Debug\\cmTC_b2a04.exe" /INCREMENTAL /ILK:"cmTC_b2a04.dir\\Debug\\cmTC_b2a04.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-fvb6by/Debug/cmTC_b2a04.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-fvb6by/Debug/cmTC_b2a04.lib" /MACHINE:X64  /machine:x64 cmTC_b2a04.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b2a04.vcxproj -> D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-fvb6by\\Debug\\cmTC_b2a04.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b2a04.dir\\Debug\\cmTC_b2a04.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b2a04.dir\\Debug\\cmTC_b2a04.tlog\\cmTC_b2a04.lastbuildstate".
+        Done Building Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-fvb6by\\cmTC_b2a04.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.93
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-64pksp"
+      binary: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-64pksp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/cmake-modules"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-64pksp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_996df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 01.06.2023 12:51:29.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-64pksp\\cmTC_996df.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_996df.dir\\Debug\\".
+          Creating directory "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-64pksp\\Debug\\".
+          Creating directory "cmTC_996df.dir\\Debug\\cmTC_996df.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_996df.dir\\Debug\\cmTC_996df.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_996df.dir\\Debug\\\\" /Fd"cmTC_996df.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-64pksp\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_996df.dir\\Debug\\\\" /Fd"cmTC_996df.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-64pksp\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-64pksp\\Debug\\cmTC_996df.exe" /INCREMENTAL /ILK:"cmTC_996df.dir\\Debug\\cmTC_996df.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-64pksp/Debug/cmTC_996df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-64pksp/Debug/cmTC_996df.lib" /MACHINE:X64  /machine:x64 cmTC_996df.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_996df.vcxproj -> D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-64pksp\\Debug\\cmTC_996df.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_996df.dir\\Debug\\cmTC_996df.tlog\\unsuccessfulbuild".
+          Touching "cmTC_996df.dir\\Debug\\cmTC_996df.tlog\\cmTC_996df.lastbuildstate".
+        Done Building Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-64pksp\\cmTC_996df.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.93
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:37 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-nwrlzg"
+      binary: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-nwrlzg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/cmake-modules"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-nwrlzg
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3f6c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 01.06.2023 12:51:30.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-nwrlzg\\cmTC_3f6c7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3f6c7.dir\\Debug\\".
+          Creating directory "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-nwrlzg\\Debug\\".
+          Creating directory "cmTC_3f6c7.dir\\Debug\\cmTC_3f6c7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3f6c7.dir\\Debug\\cmTC_3f6c7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f6c7.dir\\Debug\\\\" /Fd"cmTC_3f6c7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-nwrlzg\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f6c7.dir\\Debug\\\\" /Fd"cmTC_3f6c7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-nwrlzg\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-nwrlzg\\Debug\\cmTC_3f6c7.exe" /INCREMENTAL /ILK:"cmTC_3f6c7.dir\\Debug\\cmTC_3f6c7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-nwrlzg/Debug/cmTC_3f6c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-nwrlzg/Debug/cmTC_3f6c7.lib" /MACHINE:X64  /machine:x64 cmTC_3f6c7.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_3f6c7.vcxproj -> D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-nwrlzg\\Debug\\cmTC_3f6c7.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_3f6c7.dir\\Debug\\cmTC_3f6c7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3f6c7.dir\\Debug\\cmTC_3f6c7.tlog\\cmTC_3f6c7.lastbuildstate".
+        Done Building Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-nwrlzg\\cmTC_3f6c7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.92
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "contrib/zlib/CMakeLists.txt:55 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-jn2c48"
+      binary: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-jn2c48"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/cmake-modules"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-jn2c48
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0c9ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 01.06.2023 12:51:31.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0c9ed.dir\\Debug\\".
+          Creating directory "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\Debug\\".
+          Creating directory "cmTC_0c9ed.dir\\Debug\\cmTC_0c9ed.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0c9ed.dir\\Debug\\cmTC_0c9ed.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c9ed.dir\\Debug\\\\" /Fd"cmTC_0c9ed.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OFF64_T.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c9ed.dir\\Debug\\\\" /Fd"cmTC_0c9ed.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c"
+        D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj]
+        D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj]
+        D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj]
+        D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj]
+        D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj]
+        Done Building Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj]
+          D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj]
+          D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj]
+          D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj]
+          D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-jn2c48\\cmTC_0c9ed.vcxproj]
+        
+            0 Warning(s)
+            5 Error(s)
+        
+        Time Elapsed 00:00:00.80
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:64 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-g072pd"
+      binary: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-g072pd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/cmake-modules"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-g072pd
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_aa9df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 01.06.2023 12:51:32.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\cmTC_aa9df.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_aa9df.dir\\Debug\\".
+          Creating directory "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\Debug\\".
+          Creating directory "cmTC_aa9df.dir\\Debug\\cmTC_aa9df.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_aa9df.dir\\Debug\\cmTC_aa9df.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa9df.dir\\Debug\\\\" /Fd"cmTC_aa9df.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa9df.dir\\Debug\\\\" /Fd"cmTC_aa9df.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\Debug\\cmTC_aa9df.exe" /INCREMENTAL /ILK:"cmTC_aa9df.dir\\Debug\\cmTC_aa9df.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-g072pd/Debug/cmTC_aa9df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-g072pd/Debug/cmTC_aa9df.lib" /MACHINE:X64  /machine:x64 cmTC_aa9df.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\cmTC_aa9df.vcxproj]
+        D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\Debug\\cmTC_aa9df.exe : fatal error LNK1120: 1 unresolved externals [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\cmTC_aa9df.vcxproj]
+        Done Building Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\cmTC_aa9df.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\cmTC_aa9df.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\cmTC_aa9df.vcxproj]
+          D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\Debug\\cmTC_aa9df.exe : fatal error LNK1120: 1 unresolved externals [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-g072pd\\cmTC_aa9df.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.86
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "contrib/zlib/CMakeLists.txt:72 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-ey50n8"
+      binary: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-ey50n8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/cmake-modules"
+    buildResult:
+      variable: "Z_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/Dokumenty/studia/Semestr 8/Algorytmy grafiki konputerowej/Projekt/Transparency/Libraries/assimp-5.2.5/libraries/CMakeFiles/CMakeScratch/TryCompile-ey50n8
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d40d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        Build started 01.06.2023 12:51:33.
+        Included response file: C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-ey50n8\\cmTC_d40d1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d40d1.dir\\Debug\\".
+          Creating directory "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-ey50n8\\Debug\\".
+          Creating directory "cmTC_d40d1.dir\\Debug\\cmTC_d40d1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d40d1.dir\\Debug\\cmTC_d40d1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d40d1.dir\\Debug\\\\" /Fd"cmTC_d40d1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-ey50n8\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d40d1.dir\\Debug\\\\" /Fd"cmTC_d40d1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-ey50n8\\CheckIncludeFile.c"
+        D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-ey50n8\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-ey50n8\\cmTC_d40d1.vcxproj]
+        Done Building Project "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-ey50n8\\cmTC_d40d1.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-ey50n8\\cmTC_d40d1.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-ey50n8\\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\\Dokumenty\\studia\\Semestr 8\\Algorytmy grafiki konputerowej\\Projekt\\Transparency\\Libraries\\assimp-5.2.5\\libraries\\CMakeFiles\\CMakeScratch\\TryCompile-ey50n8\\cmTC_d40d1.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.80
+        
+      exitCode: 1
+...

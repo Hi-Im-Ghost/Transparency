@@ -6,10 +6,13 @@
 
 #include <string>
 #include <iostream>
+#include <map>
 
 #include <ShaderProgram.h>
 #include <Texture.h>
 #include <Camera.h>
+#include <Object.h>
+
 
 // Funkcja do skalowania okna do renderowania (uruchamia sie w momencie zmiany rozmiaru okna)
 void scaleViewport(GLFWwindow* window, int width, int height);
@@ -19,7 +22,6 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
 // Funkcja do obs³ugu inputu 
 void mappingInput(GLFWwindow* window);
-
 
 // szerokosc okna
 const unsigned int width = 800;
@@ -34,165 +36,8 @@ bool firstMouse = true;
 float lastX = width / 2.0f;
 float lastY = height / 2.0f;
 
-//Obiekty
-float square[] = {
-    // positions          // colors           // texture
-     0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   1.0f, 1.0f, // top right
-     0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,   1.0f, 0.0f, // bottom right
-    -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, 1.0f,   0.0f, 0.0f, // bottom left
-    -0.5f,  0.5f, 0.0f,   1.0f, 1.0f, 0.0f,   0.0f, 1.0f  // top left 
-};
-unsigned int indices_square[] = {
-    0, 1, 3, 
-    1, 2, 3 
-};
-
-float cube[] = {
-    -0.5f, -0.5f, -0.5f,
-     0.5f, -0.5f, -0.5f,
-     0.5f,  0.5f, -0.5f,
-     0.5f,  0.5f, -0.5f,
-    -0.5f,  0.5f, -0.5f,
-    -0.5f, -0.5f, -0.5f,
-
-    -0.5f, -0.5f,  0.5f,
-     0.5f, -0.5f,  0.5f,
-     0.5f,  0.5f,  0.5f,
-     0.5f,  0.5f,  0.5f,
-    -0.5f,  0.5f,  0.5f,
-    -0.5f, -0.5f,  0.5f,
-
-    -0.5f,  0.5f,  0.5f,
-    -0.5f,  0.5f, -0.5f,
-    -0.5f, -0.5f, -0.5f,
-    -0.5f, -0.5f, -0.5f,
-    -0.5f, -0.5f,  0.5f,
-    -0.5f,  0.5f,  0.5f,
-
-     0.5f,  0.5f,  0.5f,
-     0.5f,  0.5f, -0.5f,
-     0.5f, -0.5f, -0.5f,
-     0.5f, -0.5f, -0.5f,
-     0.5f, -0.5f,  0.5f,
-     0.5f,  0.5f,  0.5f,
-
-    -0.5f, -0.5f, -0.5f,
-     0.5f, -0.5f, -0.5f,
-     0.5f, -0.5f,  0.5f,
-     0.5f, -0.5f,  0.5f,
-    -0.5f, -0.5f,  0.5f,
-    -0.5f, -0.5f, -0.5f,
-
-    -0.5f,  0.5f, -0.5f,
-     0.5f,  0.5f, -0.5f,
-     0.5f,  0.5f,  0.5f,
-     0.5f,  0.5f,  0.5f,
-    -0.5f,  0.5f,  0.5f,
-    -0.5f,  0.5f, -0.5f,
-};
-//cube with tex
-float cubeTex[] = {
-    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
-     0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
-
-    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-    -0.5f,  0.5f,  0.5f,  0.0f, 1.0f,
-    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-
-    -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-    -0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-    -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-
-     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-     0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-     0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-     0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-
-    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-     0.5f, -0.5f, -0.5f,  1.0f, 1.0f,
-     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-
-    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-    -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
-    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f
-};
-//kostka z normalnymi
-float cubeNormals[] = {
-    -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-     0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-     0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-     0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-    -0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
-
-    -0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
-     0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
-     0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
-     0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
-    -0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
-    -0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
-
-    -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
-    -0.5f,  0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
-    -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
-    -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
-    -0.5f, -0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
-    -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
-
-     0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
-     0.5f,  0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
-     0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
-     0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
-     0.5f, -0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
-     0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
-
-    -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
-     0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
-     0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
-     0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
-    -0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
-
-    -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
-     0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
-     0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
-     0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
-    -0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
-    -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f
-};
-
-glm::vec3 cubePositions[] = {
-    glm::vec3(0.0f,  0.0f,  0.0f),
-    glm::vec3(2.0f,  5.0f, -15.0f),
-    glm::vec3(-1.5f, -2.2f, -2.5f),
-    glm::vec3(-3.8f, -2.0f, -12.3f),
-    glm::vec3(2.4f, -0.4f, -3.5f),
-    glm::vec3(-1.7f,  3.0f, -7.5f),
-    glm::vec3(1.3f, -2.0f, -2.5f),
-    glm::vec3(1.5f,  2.0f, -2.5f),
-    glm::vec3(1.5f,  0.2f, -1.5f),
-    glm::vec3(-1.3f,  1.0f, -1.5f)
-};
-
-glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
+//Pozycja slonca
+glm::vec3 lightPos(-20.0f, 18.0f, -15.0f);
 
 int main()
 {
@@ -232,62 +77,62 @@ int main()
     }
     //Wlaczenie bufora glebokosci
     glEnable(GL_DEPTH_TEST);
+    // Accept fragment if it closer to the camera than the former one
+    glDepthFunc(GL_LESS);
+
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     //SHADERS
     ShaderProgram LightingObject("Shaders/vertex.vert", "Shaders/fragment.frag", Shader::SourceType::FILE, Shader::SourceType::FILE);
     ShaderProgram SunObject("Shaders/light.vert", "Shaders/light.frag", Shader::SourceType::FILE, Shader::SourceType::FILE);
-    //VAO
-    GLuint VAO, sunVAO;
-    glGenVertexArrays(1, &VAO);
-    //Funkcja do wiazania obiektu tablicy wierzcholkow
-    glBindVertexArray(VAO);
 
-    //VBO
-    GLuint VBO;
-    glGenBuffers(1, &VBO);
-    //Funkcja do wiazania bufora z typem 
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    //Funkcja do przydzielenia pamieci dla bufora
-    glBufferData(GL_ARRAY_BUFFER, sizeof(cubeNormals), cubeNormals, GL_STATIC_DRAW);
-    /*
-    //EBO
-    GLuint EBO;
-    glGenBuffers(1, &EBO);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
-    */
-    //Funkcja do okreslenia jak opengl ma interpretowac dane wierzcholkow
-    //pos
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
-    glEnableVertexAttribArray(1);
-    /*//color
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
-    glEnableVertexAttribArray(1);*/
-    //tex
-    //glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
-    //glEnableVertexAttribArray(1);
-   
-    //SUN
-    glGenVertexArrays(1, &sunVAO);
-    //Funkcja do wiazania obiektu tablicy wierzcholkow
-    glBindVertexArray(sunVAO);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    //Funkcja do okreslenia jak opengl ma interpretowac dane wierzcholkow
-    //pos
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
+    //Inicjalizacja i wczytanie modeli
+    Object house("Models/house.obj");
+    Object tree("Models/tree.obj");
+    Object floor("Models/plane.obj");
+    Object window_object("Models/plane.obj");
+    Object sun("Models/circle.obj");
 
     //TEXTURES
-    //Texture texture1("Textures/brick3.png");
-    //Texture texture2("Textures/face.png");
+    Texture texture1("Textures/brick3.png");
+    Texture texture2("Textures/floor.png");
+    Texture texture3("Textures/window.png");
+    Texture texture4("Textures/tree.png");
+    Texture texture5("Textures/house2.png");
+    Texture texture6("Textures/grassflat.png"); 
+    //Pozycja dla okien
+    std::vector<glm::vec3> windows
+    {
+
+        glm::vec3(-24.5f, 34.0f, -12.0f),
+        glm::vec3(-55.0f, 34.0f, -12.0f),
+        glm::vec3(-39.5f, 50.0f, -12.0f),
+        glm::vec3(-34.5f, 17.5f, -12.0f)
+    };
+
+    std::vector<glm::vec3> trees
+    {
+
+        glm::vec3(0.0f, 0.0f, 0.0f),
+        glm::vec3(-5.0f, 0.0f, -6.0f),
+        glm::vec3(6.5f, 0.0f, 6.0f)
+    };
+    window_object.scale(glm::vec3(0.15f));
+    window_object.rotate(glm::radians(90.0f), glm::vec3(1.0f, 0.0f, 0.0f));
 
     //Aktywacja shaderow
-    //shaderProgram.useShaderProgram(); 
+    LightingObject.useShaderProgram();
+
     //Przeslanie tekstur do shaderow jako uniform
-    //glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture1"), 0);
-    //glUniform1i(glGetUniformLocation(shaderProgram.getShaderProgram(), "texture2"), 1);
+    glUniform1i(glGetUniformLocation(LightingObject.getShaderProgram(), "texture1"), 0);
+
+    //mapa do przechowywania okien w odpowiedniej kolejnoœci
+    std::map<float, glm::vec3> sorted;
+    
+    //Transformacje dla obiektach statycznych
+    house.translate(glm::vec3(-5.0f, 0.0f, 5.0));
+    floor.scale(glm::vec3(2.0f));
 
     //Petla glowna
     while (!glfwWindowShouldClose(window))
@@ -299,79 +144,101 @@ int main()
 
         //input
         mappingInput(window);
+      
 
         //czyszczenie okna kolorem
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        //Zmiana pozycji swiatla w czasie
-        lightPos.x = 1.0f + sin(glfwGetTime()) * 5.0f;
-        lightPos.y = sin(glfwGetTime() / 2.0f) * 3.0f;
         //Aktywacja tekstur
-        //texture1.useTexture();
-        //texture2.useTexture(1);
-
-        //Ustawienie aktywnego shaderu do rysowania
-        LightingObject.useShaderProgram();
-
-        //Przeslanie koloru do shadera
-        glUniform3f(glGetUniformLocation(LightingObject.getShaderProgram(), "objectColor"), 1, GL_FALSE, (1.0f, 0.5f, 0.31f));
-        glUniform3f(glGetUniformLocation(LightingObject.getShaderProgram(), "lightColor"), 1, GL_FALSE, (1.0f, 1.0f, 1.0f));
-        //Pozycja swiatla
-        glUniform3fv(glGetUniformLocation(LightingObject.getShaderProgram(), "lightPos"), 1, glm::value_ptr(lightPos));
-        //Camera pos
-        glUniform3fv(glGetUniformLocation(LightingObject.getShaderProgram(), "viewPos"), 1, glm::value_ptr(camera.getCameraPosition()));
-
-        //Macierz projekcji
-        glm::mat4 proj = camera.getProjectionMatrix();
-        glUniformMatrix4fv(glGetUniformLocation(LightingObject.getShaderProgram(), "projection"), 1, GL_FALSE, glm::value_ptr(proj));
-        //Camera transform
-        glm::mat4 view = camera.getViewMatrix();
-        glUniformMatrix4fv(glGetUniformLocation(LightingObject.getShaderProgram(), "view"), 1, GL_FALSE, glm::value_ptr(view));
-
-        //Rysowanie 
-        
-        for (unsigned int i = 1; i < 11; i++)
+        texture4.useTexture();
+        // sortowanie okien przed renderowaniem tak aby by³y renderowane od najdalszych do najbli¿szych 
+        for (unsigned int i = 0; i < trees.size(); i++)
         {
-            glm::mat4 model = glm::mat4(1.0f);
-            model = glm::translate(model, cubePositions[i - 1]);
-            //Obrot  wokol osi Z
-            //model = glm::rotate(model, (float)glfwGetTime() * i, glm::vec3(1.0f, 0.3f, 0.5f));
+            tree.setModelMatrix(glm::mat4(1.0f));
+            tree.translate(trees[i]);
+            //Ustawienie uniformow i shadera
+            tree.setShaderUniforms(LightingObject.getShaderProgram(), camera.getViewMatrix(), camera.getProjectionMatrix(), glm::vec3(1.0f, 1.0f, 1.0f), glm::vec3(1.0f, 1.0f, 1.0f), lightPos, camera.getCameraPosition());
+            tree.draw();
+        }
+        
 
-            glUniformMatrix4fv(glGetUniformLocation(LightingObject.getShaderProgram(), "model"), 1, GL_FALSE, glm::value_ptr(model));
-            glBindVertexArray(VAO);
-            glDrawArrays(GL_TRIANGLES, 0, 36);
+
+        //Ustawienie uniformow i shadera
+        house.setShaderUniforms(LightingObject.getShaderProgram(), camera.getViewMatrix(), camera.getProjectionMatrix(), glm::vec3(1.0f, 1.0f, 1.0f), glm::vec3(1.0f, 1.0f, 1.0f), lightPos, camera.getCameraPosition());
+        texture5.bindTexture();
+        house.draw();
+
+        //Ustawienie uniformow i shadera
+        floor.setShaderUniforms(LightingObject.getShaderProgram(), camera.getViewMatrix(), camera.getProjectionMatrix(), glm::vec3(1.0f, 1.0f, 1.0f), glm::vec3(1.0f, 1.0f, 1.0f), lightPos, camera.getCameraPosition());
+        texture6.bindTexture();
+        floor.draw();
+
+
+        //Dla slonca
+        sun.setModelMatrix(glm::mat4(1.0f));
+        sun.scale(glm::vec3(0.5f));
+        //Zmiana pozycji swiatla w czasie
+        //lightPos.x = 3.0f + sin(glfwGetTime()) * 5.0f;
+        //lightPos.y = 5.0f + sin(glfwGetTime() / 1.0f) * 5.0f;
+        sun.translate(lightPos);
+        sun.setShaderUniforms(SunObject.getShaderProgram(), camera.getViewMatrix(), camera.getProjectionMatrix(), glm::vec3(1.0f, 1.0f, 1.0f), glm::vec3(1.0f, 1.0f, 1.0f), lightPos, camera.getCameraPosition());
+        sun.draw();
+                
+        sorted.clear();
+        // sortowanie okien przed renderowaniem tak aby by³y renderowane od najdalszych do najbli¿szych 
+        for (unsigned int i = 0; i < windows.size(); i++)
+        {
+            // obliczamy odleg³oœæ od kamery poprzez obliczenie d³ugoœci wektora miêdzy pozycj¹ kamery a okna
+            float distance = glm::length(camera.getCameraPosition() - windows[i]);
+            // przypisanie tej odleg³oœci jako klucz do mapy a jako wartoœæ pozycje okna
+            sorted[distance] = windows[i];
         }
 
+        texture3.bindTexture();
+        // iteracja przez posortowana mapê, która przechowuje odleg³oœæ od kamery do okien i renderowanie w odwrotnej kolejnosci  zaczyna od najdalszych i konczy na najblizszych
+        for (std::map<float, glm::vec3>::reverse_iterator it = sorted.rbegin(); it != sorted.rend(); ++it)
+        {
+            window_object.setModelMatrix(glm::mat4(1.0f));
+            window_object.scale(glm::vec3(0.15f));
+            window_object.rotate(glm::radians(90.0f), glm::vec3(1.0f, 0.0f, 0.0f));
+            // ustawiamy macierz dla obiektu przesuwaj¹c go do po³o¿enia w przestrzeni œwiata
+            window_object.translate(it->second);
+            // Sprawdzamy, czy to jest okno, które chcemy obróciæ
+            if (it->second == windows[0] || it->second == windows[1]) {
+                // Obrót okna o 90 stopni wokó³ osi Y
+                window_object.rotate(glm::radians(90.0f), glm::vec3(0.0f, 0.0f, 1.0f));
+            }
+            // przesy³anie macierzy model do shadera
+            window_object.setShaderUniforms(LightingObject.getShaderProgram(), camera.getViewMatrix(), camera.getProjectionMatrix(), glm::vec3(1.0f, 1.0f, 1.0f), glm::vec3(1.0f, 1.0f, 1.0f), lightPos, camera.getCameraPosition());
+            window_object.draw();
+        }
+        
 
-        //glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
-        
-        
-        //Dla slonca
-        SunObject.useShaderProgram();
-        //Macierz projekcji
-        glUniformMatrix4fv(glGetUniformLocation(SunObject.getShaderProgram(), "projection"), 1, GL_FALSE, glm::value_ptr(proj));
-        //Camera transform
-        glUniformMatrix4fv(glGetUniformLocation(SunObject.getShaderProgram(), "view"), 1, GL_FALSE, glm::value_ptr(view));
-        glm::mat4 model = glm::mat4(1.0f);
-        model = glm::translate(model, lightPos);
-        model = glm::scale(model, glm::vec3(0.3f));
-        glUniformMatrix4fv(glGetUniformLocation(SunObject.getShaderProgram(), "model"), 1, GL_FALSE, glm::value_ptr(model));
-        
-        glBindVertexArray(sunVAO);
-        glDrawArrays(GL_TRIANGLES, 0, 36);
-        
-        
         //Podwójne buforowanie 
         glfwSwapBuffers(window);
         //Funkcja do sprawdzenia czy zostalo wykonane jakies wydarzenie i aktualizowania stanu okna
         glfwPollEvents();
     }
+
     //Funkcje do zwalniania uzytych zasobow 
-    glDeleteVertexArrays(1, &VAO);
-    glDeleteVertexArrays(1, &sunVAO);
-    glDeleteBuffers(1, &VBO);
-    //glDeleteBuffers(1, &EBO);
+    glDeleteVertexArrays(1, &house.VAO);
+    glDeleteVertexArrays(1, &tree.VAO);
+    glDeleteVertexArrays(1, &floor.VAO);
+    glDeleteVertexArrays(1, &window_object.VAO);
+    glDeleteVertexArrays(1, &sun.VAO);
+    glDeleteBuffers(1, &house.VBO);
+    glDeleteBuffers(1, &house.VBO);
+    glDeleteBuffers(1, &tree.VBO);
+    glDeleteBuffers(1, &floor.VBO);
+    glDeleteBuffers(1, &window_object.VBO);
+    glDeleteBuffers(1, &sun.VBO);
+    glDeleteBuffers(1, &house.EBO);
+    glDeleteBuffers(1, &house.EBO);
+    glDeleteBuffers(1, &tree.EBO);
+    glDeleteBuffers(1, &floor.EBO);
+    glDeleteBuffers(1, &window_object.EBO);
+    glDeleteBuffers(1, &sun.EBO);
     //Funkcja do usuwania i czyszczenia zasobów 
     glfwTerminate();
     return 0;

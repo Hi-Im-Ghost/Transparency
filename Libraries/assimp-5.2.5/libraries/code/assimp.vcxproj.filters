@@ -1,0 +1,1967 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Compression.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\IOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\material.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\AssertHandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Exceptional.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Base64.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ArmaturePopulate.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\SplitByBoneCountProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\AMF\AMFImporter.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\AMF\AMFImporter_Material.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3DS\3DSConverter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3DS\3DSLoader.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\AC\ACLoader.cpp">
+      <Filter>AssetLib\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\ASE\ASELoader.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\ASE\ASEParser.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assbin\AssbinLoader.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\B3D\B3DImporter.cpp">
+      <Filter>AssetLib\B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\BVH\BVHLoader.cpp">
+      <Filter>AssetLib\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Collada\ColladaHelper.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Collada\ColladaLoader.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Collada\ColladaParser.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\DXF\DXFLoader.cpp">
+      <Filter>AssetLib\DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\CSM\CSMLoader.cpp">
+      <Filter>AssetLib\CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\HMP\HMPLoader.cpp">
+      <Filter>AssetLib\HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Irr\IRRMeshLoader.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Irr\IRRShared.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IQM\IQMImporter.cpp">
+      <Filter>AssetLib\IQM</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Irr\IRRLoader.cpp">
+      <Filter>AssetLib\IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\LWO\LWOAnimation.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\LWO\LWOBLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\LWO\LWOLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\LWO\LWOMaterial.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\LWS\LWSLoader.cpp">
+      <Filter>AssetLib\LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\M3D\M3DImporter.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\M3D\M3DWrapper.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MD2\MD2Loader.cpp">
+      <Filter>AssetLib\MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MD3\MD3Loader.cpp">
+      <Filter>AssetLib\MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MD5\MD5Loader.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MD5\MD5Parser.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDC\MDCLoader.cpp">
+      <Filter>AssetLib\MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\MDLMaterialLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\HalfLife\HL1MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\NFF\NFFLoader.cpp">
+      <Filter>AssetLib\NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\NDO\NDOLoader.cpp">
+      <Filter>AssetLib\NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\OFF\OFFLoader.cpp">
+      <Filter>AssetLib\OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Obj\ObjFileImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Obj\ObjFileMtlImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Obj\ObjFileParser.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ogre\OgreImporter.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ogre\OgreStructs.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ogre\OgreBinarySerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ogre\OgreXmlSerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ogre\OgreMaterial.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ply\PlyLoader.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ply\PlyParser.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MS3D\MS3DLoader.cpp">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\COB\COBLoader.cpp">
+      <Filter>AssetLib\COB</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderLoader.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderDNA.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderScene.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderModifier.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderBMesh.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderTessellator.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderCustomData.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCLoader.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCUtil.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCGeometry.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCMaterial.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCProfile.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCCurve.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCBoolean.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCOpenings.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\XGL\XGLLoader.cpp">
+      <Filter>AssetLib\XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXImporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXParser.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXConverter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXUtil.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXDocument.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXProperties.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXMeshGeometry.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXMaterial.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXModel.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXAnimation.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXNodeAttribute.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXDeformer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXDocumentUtil.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Q3D\Q3DLoader.cpp">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Raw\RawLoader.cpp">
+      <Filter>AssetLib\RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\SIB\SIBImporter.cpp">
+      <Filter>AssetLib\SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\SMD\SMDLoader.cpp">
+      <Filter>AssetLib\SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\STL\STLLoader.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Terragen\TerragenLoader.cpp">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Unreal\UnrealLoader.cpp">
+      <Filter>AssetLib\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X\XFileImporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X\XFileParser.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Group.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Light.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Metadata.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Networking.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Rendering.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Shape.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Texturing.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DGeoHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DXmlHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF\glTFCommon.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF\glTFImporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF2\glTF2Importer.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3MF\XmlSerializer.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3MF\D3MFImporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3MF\D3MFOpcPackage.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MMD\MMDImporter.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MMD\MMDPmxParser.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Obj\ObjExporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ply\PlyExporter.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3DS\3DSExporter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assbin\AssbinExporter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assbin\AssbinFileWriter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assxml\AssxmlExporter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assxml\AssxmlFileWriter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\M3D\M3DExporter.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Collada\ColladaExporter.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXExporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXExportNode.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXExportProperty.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\STL\STLExporter.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X\XFileExporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DExporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF\glTFExporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF2\glTF2Exporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3MF\D3MFExporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Pbrt\PbrtExporter.cpp">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assjson\cencode.c">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assjson\json_exporter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assjson\mesh_splitter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Step\StepExporter.cpp">
+      <Filter>AssetLib\STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\unzip\crypt.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\StbCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Compression.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Maybe.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\DefaultLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\LogStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Logger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\NullLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\BlobIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\ArmaturePopulate.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\PostProcessing\SplitByBoneCountProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\AMF\AMFImporter.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\AMF\AMFImporter_Node.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3DS\3DSHelper.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3DS\3DSLoader.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\AC\ACLoader.h">
+      <Filter>AssetLib\AC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\ASE\ASELoader.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\ASE\ASEParser.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assbin\AssbinLoader.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\B3D\B3DImporter.h">
+      <Filter>AssetLib\B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\BVH\BVHLoader.h">
+      <Filter>AssetLib\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Collada\ColladaHelper.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Collada\ColladaLoader.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Collada\ColladaParser.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\DXF\DXFLoader.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\DXF\DXFHelper.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\CSM\CSMLoader.h">
+      <Filter>AssetLib\CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\HMP\HMPFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\HMP\HMPLoader.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\HMP\HalfLifeFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Irr\IRRMeshLoader.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Irr\IRRShared.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IQM\iqm.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IQM\IQMImporter.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Irr\IRRLoader.h">
+      <Filter>AssetLib\IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\LWO\LWOAnimation.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\LWO\LWOFileData.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\LWO\LWOLoader.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\LWS\LWSLoader.h">
+      <Filter>AssetLib\LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\M3D\M3DMaterials.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\M3D\M3DImporter.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\M3D\M3DWrapper.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\M3D\m3d.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MD2\MD2FileData.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MD2\MD2Loader.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MD2\MD2NormalTable.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MD3\MD3FileData.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MD3\MD3Loader.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MD5\MD5Loader.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MD5\MD5Parser.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDC\MDCFileData.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDC\MDCLoader.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDC\MDCNormalTable.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\MDLDefaultColorMap.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\MDLFileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\HalfLife\HalfLifeMDLBaseHeader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\HalfLife\HL1FileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\HalfLife\HL1MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\HalfLife\HL1ImportDefinitions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\HalfLife\HL1ImportSettings.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\HalfLife\HL1MeshTrivert.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\HalfLife\LogFunctions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\NFF\NFFLoader.h">
+      <Filter>AssetLib\NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\NDO\NDOLoader.h">
+      <Filter>AssetLib\NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\OFF\OFFLoader.h">
+      <Filter>AssetLib\OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Obj\ObjFileData.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Obj\ObjFileImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Obj\ObjFileMtlImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Obj\ObjFileParser.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Obj\ObjTools.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ogre\OgreImporter.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ogre\OgreStructs.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ogre\OgreParsingUtils.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ogre\OgreBinarySerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ogre\OgreXmlSerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\OpenGEX\OpenGEXImporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\OpenGEX\OpenGEXStructs.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ply\PlyLoader.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ply\PlyParser.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MS3D\MS3DLoader.h">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\COB\COBLoader.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\COB\COBScene.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderLoader.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderDNA.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderDNA.inl">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderScene.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderSceneGen.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderIntermediate.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderModifier.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderBMesh.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderTessellator.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Blender\BlenderCustomData.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCLoader.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCReaderGen_2x3.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\IFC\IFCUtil.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\XGL\XGLLoader.h">
+      <Filter>AssetLib\XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXCompileConfig.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXImporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXParser.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXTokenizer.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXImportSettings.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXConverter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXUtil.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXDocument.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXProperties.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXMeshGeometry.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXCommon.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Q3D\Q3DLoader.h">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Q3BSP\Q3BSPFileData.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Q3BSP\Q3BSPFileParser.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Raw\RawLoader.h">
+      <Filter>AssetLib\RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\SIB\SIBImporter.h">
+      <Filter>AssetLib\SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\SMD\SMDLoader.h">
+      <Filter>AssetLib\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\STL\STLLoader.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Terragen\TerragenLoader.h">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Unreal\UnrealLoader.h">
+      <Filter>AssetLib\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X\XFileHelper.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X\XFileImporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X\XFileParser.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Macro.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DImporter_Node.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DGeoHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DXmlHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF\glTFCommon.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF\glTFAsset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF\glTFAsset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF\glTFAssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF\glTFAssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF\glTFImporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF2\glTF2Asset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF2\glTF2Asset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF2\glTF2AssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF2\glTF2AssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF2\glTF2Importer.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3MF\3MFTypes.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3MF\XmlSerializer.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3MF\D3MFImporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3MF\D3MFOpcPackage.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3MF\3MFXmlTags.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MMD\MMDCpp14.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MMD\MMDImporter.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MMD\MMDPmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MMD\MMDPmxParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\MMD\MMDVmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Obj\ObjExporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\OpenGEX\OpenGEXExporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Ply\PlyExporter.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3DS\3DSExporter.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assbin\AssbinExporter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assbin\AssbinFileWriter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assxml\AssxmlExporter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assxml\AssxmlFileWriter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\M3D\M3DExporter.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Collada\ColladaExporter.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXExporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXExportNode.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\FBX\FBXExportProperty.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\STL\STLExporter.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X\XFileExporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\X3D\X3DExporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF\glTFExporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\glTF2\glTF2Exporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\3MF\D3MFExporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\Pbrt\PbrtExporter.h">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assjson\cencode.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Assjson\mesh_splitter.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\AssetLib\Step\StepExporter.h">
+      <Filter>AssetLib\STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\pugixml\src\pugiconfig.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\pugixml\src\pugixml.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\contrib\stb\stb_image.h">
+      <Filter>Contrib\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\anim.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\aabb.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\ai_assert.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\camera.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\color4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\color4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\libraries\include\assimp\config.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\ColladaMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\commonMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\defs.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\cfileio.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\light.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\material.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\material.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\matrix3x3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\matrix3x3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\matrix4x4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\matrix4x4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\mesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\ObjMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\pbrmaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\GltfMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\postprocess.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\quaternion.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\quaternion.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\scene.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\metadata.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\texture.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\types.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\vector2.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\vector2.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\vector3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\vector3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\version.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\cimport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\importerdesc.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Importer.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\ProgressHandler.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\IOStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\IOSystem.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\cexport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Exporter.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\DefaultIOStream.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\DefaultIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\SceneCombiner.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\fast_atof.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\qnan.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\BaseImporter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Hash.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\MemoryIOWrapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\ParsingUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\StreamReader.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\StreamWriter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\StringComparison.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\StringUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\SGSpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\GenericProperty.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\SpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\SmallVector.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\SmoothingGroups.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\SmoothingGroups.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\StandardShapes.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\RemoveComments.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Subdivision.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Vertex.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\LineSplitter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\TinyFormatter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Profiler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\LogAux.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Bitmap.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\XMLTools.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\IOStreamBuffer.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\CreateAnimMesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\XmlParser.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\MathFunctions.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Exceptional.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\ByteSwapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Base64.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Dokumenty\studia\Semestr 8\Algorytmy grafiki konputerowej\Projekt\Transparency\Libraries\assimp-5.2.5\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AssetLib">
+      <UniqueIdentifier>{34664DEE-56FA-37C1-ACA5-3F062941CF51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3D">
+      <UniqueIdentifier>{D21FDAE0-BEF4-36FD-9C33-BC60879755AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3DS">
+      <UniqueIdentifier>{CBC1B1D4-FEA1-38E5-A643-B81E44E9B02E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3MF">
+      <UniqueIdentifier>{6C3D6592-4925-32FE-91F4-795B895DA62B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AC">
+      <UniqueIdentifier>{FBB1DC9B-6B9D-39FB-9FBA-E37CF786B0B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AMF">
+      <UniqueIdentifier>{FC667F29-E6ED-397B-BFD5-D5BB3062EEA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASE">
+      <UniqueIdentifier>{1EB988DF-1FB8-3AFA-A758-CA536044D05D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSBIN">
+      <UniqueIdentifier>{FECD4768-4FED-3B4E-9DE1-EC8D4B8B59F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSJSON">
+      <UniqueIdentifier>{DD137742-20CF-308A-AC4E-145F38E92CCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSXML">
+      <UniqueIdentifier>{66ABE30A-D791-32EF-991B-FAA254EBF3C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\B3D">
+      <UniqueIdentifier>{1E0FF8EF-17B9-38C1-ABAC-098F5DC4FC14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BLEND">
+      <UniqueIdentifier>{FC0A8042-B967-31D7-8511-9A9F5993C90F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BVH">
+      <UniqueIdentifier>{97A5A59E-D319-3CB3-BCC9-11F40564D0A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COB">
+      <UniqueIdentifier>{2BA676E8-06F9-374F-9CE6-F1A2C013BC7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COLLADA">
+      <UniqueIdentifier>{F02E81C8-4C95-3C50-9746-ACE33CD86D9E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\CSM">
+      <UniqueIdentifier>{A6353F41-EE61-3433-88BE-30491D6609C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\DXF">
+      <UniqueIdentifier>{7F9D83CE-7943-33F2-93E5-E27EE2331202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\FBX">
+      <UniqueIdentifier>{9AB4D5C5-24D2-359E-A7EB-E53991729D09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\GLTF">
+      <UniqueIdentifier>{C91FB2AD-9DA9-384C-A16C-966EB6AF28E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\HMP">
+      <UniqueIdentifier>{9D7048B8-0850-38D9-B4D0-CE4F353B3288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IFC">
+      <UniqueIdentifier>{C36D6FF7-B546-3CB8-B20B-7B324364452E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IQM">
+      <UniqueIdentifier>{2347C98D-F450-3B26-A8F8-313B2C0C6BC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRR">
+      <UniqueIdentifier>{9D6213F8-5903-3F6B-A757-9A3C2A023D52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRRMESH">
+      <UniqueIdentifier>{916499E9-B4B1-3551-8B0F-39F05B2F2200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWO">
+      <UniqueIdentifier>{5ED99AB5-99DB-3785-9922-AEF3B794483D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWS">
+      <UniqueIdentifier>{7DD9B9C3-DEC0-3FA9-884E-6641F01A26E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\M3D">
+      <UniqueIdentifier>{70871832-BEA5-3FB1-A5BC-2798F5121383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD2">
+      <UniqueIdentifier>{E1F2D48B-846C-3D4F-A027-B7371B2DBCC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD3">
+      <UniqueIdentifier>{B7011921-9450-354E-BBC8-556DC8F1E841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD5">
+      <UniqueIdentifier>{23D4A50A-38F6-39EB-BF3D-16BFA69C065C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDC">
+      <UniqueIdentifier>{97335696-BE26-3B34-9D50-97564D1A129D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDL">
+      <UniqueIdentifier>{EF40209C-3800-36C3-84C6-E8A32857644A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MMD">
+      <UniqueIdentifier>{06FE8E70-D37E-3A8B-9B6E-CC4DB60849AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MS3D">
+      <UniqueIdentifier>{39811580-FEED-3C10-93E4-3358BF926D6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NDO">
+      <UniqueIdentifier>{86110AA0-7ACF-3ACF-BDE7-043A2D22F5DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NFF">
+      <UniqueIdentifier>{0D6C0C8E-5DE7-3908-A12F-24702FD99031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OBJ">
+      <UniqueIdentifier>{D9A69649-217C-3F4C-ABBB-2B0A15ABD0BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OFF">
+      <UniqueIdentifier>{6D386327-D4A9-333D-9CDA-7BDCADE3EBFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OGRE">
+      <UniqueIdentifier>{C7AA29D2-1CD2-3481-A8DC-4DB50C573C33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OPENGEX">
+      <UniqueIdentifier>{5350D7D5-B0CD-3394-9CB1-E531175A1041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PBRT">
+      <UniqueIdentifier>{E5AA4397-55C2-39B7-BEA4-28E32F87CB29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PLY">
+      <UniqueIdentifier>{C58A2FBB-3012-394B-98E1-16AF6FB54997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3BSP">
+      <UniqueIdentifier>{4AC70B6D-5E00-3FAD-9A89-872A69C8FB04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3D">
+      <UniqueIdentifier>{7608B1A1-C8F6-349F-A805-D622DCB443A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\RAW">
+      <UniqueIdentifier>{04E06EEF-882E-3381-9675-24C2A4136AD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SIB">
+      <UniqueIdentifier>{70391EE5-C40A-3A79-A59B-D8896834E67D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SMD">
+      <UniqueIdentifier>{001187F6-D27A-3CA8-97FD-0375BD14F03C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STEP">
+      <UniqueIdentifier>{1F1B04DB-B162-373C-960E-F6FC1A9676B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STL">
+      <UniqueIdentifier>{ABA0FBFE-6D11-35E4-926D-34C138D6B81A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\TERRAGEN">
+      <UniqueIdentifier>{ADBD2A39-E59B-3B5D-B743-B69A92950680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X">
+      <UniqueIdentifier>{7238E650-BF68-3561-9A89-474FC190CEEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X3D">
+      <UniqueIdentifier>{7A9555CE-E7A2-3549-BDFC-03C76AFCF2C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\XGL">
+      <UniqueIdentifier>{44B7BA91-CC2B-3C61-9C90-68947E166284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{30873AA5-8238-3CD4-A9EB-92CA70847F31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{7EA4CDA1-6B4F-3E54-A74A-869FD0FBD9B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{AC8503E7-C997-3C6A-9B0C-3FBF2DDE7EE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{E6EE5AA7-89D3-39A4-9A7C-510B02566416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{95B0663A-76CD-34D7-9DB5-F6A2DF9A4D68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{46EE440B-94F3-34DF-B2FC-ADD00DDAE822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Pugixml">
+      <UniqueIdentifier>{C9F8D054-F030-35FD-9F0C-25EF5865F9C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{F9004941-5B54-3ECC-9BEE-D439F6821169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{9D666C5F-B58B-3841-9BB6-1659B9FCFF4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\stb">
+      <UniqueIdentifier>{3EFE9A3B-38D7-33CB-989A-38230140C94F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{084084CA-B7C8-3796-994C-5F46FBB4171D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{1064A13E-DFF2-3E09-99A3-79ACFEC75CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{2BB9FC71-D519-3F7F-86A8-20990110E12C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{F9A9E303-7BC4-3450-9F02-3ACE94260C56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{7C22CAA1-5D93-31DA-97A1-B653FC0C732F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{17BBCBBE-19A9-3C91-B152-959386D1ED77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{21DE6FC1-B89B-31B4-AF75-15866A50C097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{E880B00E-4AEC-3C32-8484-D392F43EC05B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\assimp">
+      <UniqueIdentifier>{380A1CB6-5104-320B-912B-1FCC0B7E4034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{686AA952-7CE7-30DB-908D-D7C9CBBBD036}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
